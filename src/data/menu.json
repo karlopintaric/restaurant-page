@@ -1,1 +1,236 @@
-{}
+{
+    "Steaks": [
+      {
+        "item_name": "Bone-in Steak",
+        "description": "Bone-in steak cooked to your preference.",
+        "price": 5
+      },
+      {
+        "item_name": "Thick Cut Steak",
+        "description": "Thick cut steak, juicy and tender.",
+        "price": 5
+      },
+      {
+        "item_name": "Thin Cut Steak",
+        "description": "Thin cut steak, ideal for quick cooking.",
+        "price": 5
+      }
+    ],
+    "Pizzas": [
+      {
+        "item_name": "Pizza",
+        "description": "Classic pizza with a choice of toppings.",
+        "price": 5
+      },
+      {
+        "item_name": "Mushroom Pizza",
+        "description": "Pizza topped with mushrooms.",
+        "price": 5
+      },
+      {
+        "item_name": "Onion Pizza",
+        "description": "Pizza with extra onions for added flavor.",
+        "price": 5
+      }
+    ],
+    "Dumplings": [
+      {
+        "item_name": "Dumplings",
+        "description": "Traditional dumplings served with your choice of sides.",
+        "price": 8
+      },
+      {
+        "item_name": "Dumplings with Soy Sauce",
+        "description": "Dumplings served with a side of soy sauce.",
+        "price": 8
+      },
+      {
+        "item_name": "Dumplings with Seaweed",
+        "description": "Dumplings with a side of seaweed.",
+        "price": 8
+      }
+    ],
+    "Burgers": [
+      {
+        "item_name": "Burger",
+        "description": "Classic burger with your choice of toppings.",
+        "price": 3
+      },
+      {
+        "item_name": "Burger with Toppings",
+        "description": "Burger with additional toppings.",
+        "price": 3
+      },
+      {
+        "item_name": "Cheeseburger",
+        "description": "Cheeseburger with extra cheese.",
+        "price": 3
+      },
+      {
+        "item_name": "Fresh Patty Burger",
+        "description": "Burger with fresh patties.",
+        "price": 3
+      }
+    ],
+    "Turkeys": [
+      {
+        "item_name": "Nut Roast",
+        "description": "Nut roast, a classic turkey alternative.",
+        "price": 5
+      }
+    ],
+    "Tacos": [
+      {
+        "item_name": "Taco",
+        "description": "Classic taco with your choice of fillings.",
+        "price": 5
+      },
+      {
+        "item_name": "Taco with Cheese",
+        "description": "Taco with added cheese.",
+        "price": 5
+      },
+      {
+        "item_name": "Taco with Lettuce",
+        "description": "Taco with added lettuce.",
+        "price": 5
+      },
+      {
+        "item_name": "Taco with Onion",
+        "description": "Taco with added onions.",
+        "price": 5
+      },
+      {
+        "item_name": "Taco with Tomato",
+        "description": "Taco with added tomatoes.",
+        "price": 5
+      }
+    ],
+    "Pies": [
+      {
+        "item_name": "Mushroom Pie",
+        "description": "Pie filled with a rich mushroom filling.",
+        "price": 8
+      },
+      {
+        "item_name": "Vegetable Pie",
+        "description": "Pie with a mix of vegetables.",
+        "price": 8
+      }
+    ],
+    "Cakes": [
+      {
+        "item_name": "Coffee Cake",
+        "description": "Cake with a coffee flavor.",
+        "price": 3
+      },
+      {
+        "item_name": "Lemon Cake",
+        "description": "Cake with a lemon flavor.",
+        "price": 3
+      },
+      {
+        "item_name": "Chocolate Cake",
+        "description": "Chocolate flavored cake.",
+        "price": 3
+      }
+    ],
+    "Spaghetti": [
+      {
+        "item_name": "Spaghetti Bolognese",
+        "description": "Classic spaghetti with a rich Bolognese sauce.",
+        "price": 5
+      },
+      {
+        "item_name": "Cheesy Spaghetti",
+        "description": "Spaghetti topped with a generous amount of cheese.",
+        "price": 5
+      },
+      {
+        "item_name": "Lasagne",
+        "description": "Lasagne with layers of pasta, cheese, and meat sauce.",
+        "price": 5
+      }
+    ],
+    "Fish": [
+      {
+        "item_name": "Crab Cake",
+        "description": "Crab cakes made from fresh crab meat.",
+        "price": 5
+      },
+      {
+        "item_name": "Fish Fillet",
+        "description": "Tender fish fillet cooked to perfection.",
+        "price": 5
+      },
+      {
+        "item_name": "Oysters",
+        "description": "Fresh oysters served on the half shell.",
+        "price": 5
+      },
+      {
+        "item_name": "Spiny Fish",
+        "description": "Spiny fish, a unique seafood experience.",
+        "price": 5
+      }
+    ],
+    "Hot Dogs": [
+      {
+        "item_name": "Hot Dog",
+        "description": "Classic hot dog served with mustard.",
+        "price": 5
+      }
+    ],
+    "Breakfast": [
+      {
+        "item_name": "Breakfast Beans",
+        "description": "Beans served as part of your breakfast.",
+        "price": 5
+      },
+      {
+        "item_name": "Breakfast Eggs",
+        "description": "Eggs served as part of your breakfast.",
+        "price": 5
+      },
+      {
+        "item_name": "Breakfast Extras",
+        "description": "Additional extras to enhance your breakfast.",
+        "price": 5
+      }
+    ],
+    "Stir Fry": [
+      {
+        "item_name": "Bamboo Stir Fry",
+        "description": "Stir fry with bamboo shoots and vegetables.",
+        "price": 10
+      },
+      {
+        "item_name": "Mushroom Stir Fry",
+        "description": "Stir fry featuring mushrooms and a savory sauce.",
+        "price": 10
+      },
+      {
+        "item_name": "Steak Stir Fry",
+        "description": "Stir fry with tender steak pieces.",
+        "price": 10
+      }
+    ],
+    "Desserts": [
+      {
+        "item_name": "Iced Coffee",
+        "description": "Chilled coffee served over ice.",
+        "price": 1
+      },
+      {
+        "item_name": "Latte",
+        "description": "Espresso with steamed milk.",
+        "price": 1
+      },
+      {
+        "item_name": "Tea",
+        "description": "Hot tea with your choice of flavor.",
+        "price": 1
+      }
+    ]
+  }
+  

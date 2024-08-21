@@ -1,4 +1,4 @@
-import { createSkeleton } from './utils.js';
+import { createListFromObject, createSkeleton } from './utils.js';
 import homeData from '../data/about.json';
 
 export default function () {
@@ -14,12 +14,7 @@ export default function () {
     const hoursHeading = document.createElement('h2');
     hoursHeading.textContent = 'Hours';
     
-    const daysList = document.createElement('ul');
-    for (const day in homeData.hours) {
-        const li = document.createElement('li');
-        li.textContent = `${day.toUpperCase()}: ${homeData.hours[day]}`
-        daysList.appendChild(li);
-    }
+    const daysList = createListFromObject(homeData.hours);
     
     hoursDiv.appendChild(hoursHeading);
     hoursDiv.appendChild(daysList);
