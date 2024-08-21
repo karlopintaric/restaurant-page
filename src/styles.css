@@ -11,6 +11,7 @@ body {
     --black: #1D160Fff;
     background-color: var(--dark-blue);
     color: var(--white);
+    font-size: 18px;
 }
 
 nav {
@@ -39,7 +40,7 @@ nav {
 
 .container {
     width: clamp(500px, 75vw, 1000px);
-    min-height: 75vh;
+    min-height: 80vh;
     margin: auto;
     display: flex;
     flex-direction: column;
