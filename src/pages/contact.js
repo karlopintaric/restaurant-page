@@ -12,7 +12,12 @@ export default function () {
 
     const contactList = createListFromObject(contactTextObj);
     
+    const contactCallToAction = document.createElement('p');
+    contactCallToAction.textContent = 'Drop by or get in touch—we\'re always ready to serve you!';
+
     contactDiv.appendChild(contactList);
+    contactDiv.appendChild(contactCallToAction);
+
     container.appendChild(contactDiv);
 
     return container;

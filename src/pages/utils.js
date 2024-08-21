@@ -17,7 +17,7 @@ function createSkeleton(title) {
 function createListFromObject(obj) {
     const list = document.createElement('ul');
 
-    for (const item in obj) {
+    for (let item in obj) {
         const listItem = document.createElement('li');
 
         const listItemName = document.createElement('span');

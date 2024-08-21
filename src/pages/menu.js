@@ -5,10 +5,10 @@ export default function () {
     const container = createSkeleton('Menu');
 
     const populateMenu = () => {
-        for (const category in menuItems) {
+        for (let category in menuItems) {
             const categoryDiv = createMenuCategory(category);
 
-            for (const item of menuItems[category]) {
+            for (let item of menuItems[category]) {
                 categoryDiv.appendChild(
                     createMenuItem(item)
                 )

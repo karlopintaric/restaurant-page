@@ -1,5 +1,117 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    --white: #FCFDFCff;
+    --yellow: #D8C25Dff;
+    --orange: #F7AC02ff;
+    --gray: #A4B1BEff;
+    --dark-blue: #437BBFff;
+    --light-blue: #698EBCff;
+    --black: #1D160Fff;
+    background-color: var(--dark-blue);
+    color: var(--white);
+}
+
 nav {
     display: flex;
     justify-content: center;
     gap: 12px;
+    background-color: var(--light-blue);
+    padding-top: 20px;
+    margin-bottom: 32px;
+}
+
+.tab-button {
+    padding: 8px 32px;
+    border-radius: 8px 8px 0 0;
+    border: none;
+    background-color: var(--white);
+    color: var(--dark-blue);
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.tab-button.active {
+    background-color: var(--orange);
+    color: var(--white);
+}
+
+.container {
+    width: clamp(500px, 75vw, 1000px);
+    min-height: 75vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--light-blue);
+    align-items: center;
+    border-radius: 8px;
+    border: 5px solid var(--white);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.container > div {
+    background-color: var(--dark-blue);
+    border: 10px solid var(--orange);
+    border-radius: 8px;
+    padding: 16px 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 75%;
+}
+
+.container > div:first-of-type {
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 64px;
+}
+
+h1,
+h2,
+h3,
+li,
+ul,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.category-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.category-container > h2 {
+    margin-top: 16px;
+}
+
+.item-container {
+    display: grid;
+    grid-template: 1fr 1fr / 2fr 1fr;
+    width: 75%;
+    align-items: center;
+}
+
+.item-container .item-name {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.item-container .item-price {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    justify-self: end;
+}
+
+.item-container .item-price::before {
+    content: '...';
+}
+
+.item-container .item-desc {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
 }

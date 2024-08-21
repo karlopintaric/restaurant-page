@@ -2,7 +2,7 @@ import { createListFromObject, createSkeleton } from './utils.js';
 import homeData from '../data/about.json';
 
 export default function () {
-    const container = createSkeleton('PlateUp Restaurant');
+    const container = createSkeleton('PlateUp! Bistro');
 
     // About section
     const aboutDiv = document.createElement('div');
