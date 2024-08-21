@@ -1,7 +1,7 @@
 import './styles.css';
 import homePage from './pages/home.js';
 import menuPage from './pages/menu.js';
-import aboutPage from './pages/about.js';
+import contactPage from './pages/contact.js';
 
 (function RenderDOM() {
     // Cache buttons
@@ -53,8 +53,8 @@ import aboutPage from './pages/about.js';
                 return homePage();
             case 'menu':
                 return menuPage();
-            case 'about':
-                return aboutPage();
+            case 'contact':
+                return contactPage();
             default:
                 return;
         }

@@ -1,0 +1,19 @@
+{
+    "description": "PlateUp! Bistro isn't just a restaurant; it's an experience. Inspired by the thrilling chaos of culinary challenges, we blend strategy with action to create a dining adventure like no other. Whether you're perfecting recipes or managing a bustling kitchen, PlateUp! Bistro is where you hone your skills and serve satisfaction on every plate.",
+    "hours": {
+        "monday": "11:00 AM - 10:00 PM",
+        "tuesday": "11:00 AM - 10:00 PM",
+        "wednesday": "11:00 AM - 10:00 PM",
+        "thursday": "11:00 AM - 10:00 PM",
+        "friday": "11:00 AM - 10:00 PM",
+        "saturday": "12:00 PM - 11:00 PM",
+        "sunday": "12:00 PM - 9:00 PM"
+    },
+    "location": {
+        "address": "123 Game Avenue",
+        "city": "Pixel City",
+        "world": "Virtual World",
+        "zip_code": "90001"
+    }
+}
+  
