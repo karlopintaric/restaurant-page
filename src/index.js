@@ -9,6 +9,12 @@ import contactPage from './pages/contact.js';
     const navbar = document.querySelector('nav');
     const pageContent = document.querySelector('#content');
 
+    const pageMap = {
+        'home': homePage,
+        'menu': menuPage,
+        'contact': contactPage
+    };
+
     const initPage = () => {
         navbar.addEventListener('click', handlePageNav);
         document.querySelector('#home').click();
@@ -29,7 +35,7 @@ import contactPage from './pages/contact.js';
 
         // Load new content
         clearContent();
-        const newPageContent = getRequestedPage(clickTarget);
+        const newPageContent = getRequestedPage(clickTarget.id);
 
         // If page doesn't exist return
         if (!newPageContent) return;
@@ -47,17 +53,9 @@ import contactPage from './pages/contact.js';
         pageContent.textContent = '';
     }
 
-    const getRequestedPage = (target) => {
-        switch (target.id) {
-            case 'home':
-                return homePage();
-            case 'menu':
-                return menuPage();
-            case 'contact':
-                return contactPage();
-            default:
-                return;
-        }
+    const getRequestedPage = (pageId) => {
+        const loadPage =  pageMap[pageId];
+        return loadPage ? loadPage() : null;
     }
 
     initPage();
